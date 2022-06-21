@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: aliceblue;
+    display: flex;
+    height: 133vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #61dafb, rgb(189 28 65));
+}
+
+.Container {
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 199px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, red, violet);
+}
+
+.Container .heading {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 0 0 20px 0;
+
+}
+
+.Container .heading::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(135deg, blue, lightgreen);
+}
+
+.Container form .spd_form_input {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .spd_form_input .spd_card_block {
+    width: calc(100% / 2 -20px);
+    margin-bottom: 15px;
+}
+
+.spd_form_input .spd_card_block .spd_title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.spd_form_input .spd_card_block .spd_infield {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+
+}

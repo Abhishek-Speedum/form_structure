@@ -1,0 +1,133 @@
+.spd_form_header {
+    padding: 10px;
+    text-align: center;
+    background: rgb(226, 151, 11);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.spd_link_tag {
+    border: 1px #4d41ae solid;
+    border-radius: 7px;
+    width: 47px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+
+}
+
+.spd_side_bar {
+    height: 208%;
+    width: 230px;
+    position: absolute;
+    left: -13px;
+    right: 29px;
+    top: 86px;
+    background-color: silver;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+
+.spd_img {
+    height: 41px;
+    width: 34px;
+    position: absolute;
+    left: 10px;
+    right: 20px;
+
+}
+
+.spd_input_form {
+    position: absolute;
+    left: 85mm;
+    text-align: center;
+}
+
+.spd_inp {
+    border-radius: 3px;
+    width: 229px;
+    height: 170px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    caret-color: blue;
+    margin: 10px;
+    font-family: arimo;
+    border: 1px solid #CFD3DB;
+    background: #eef2f3;
+    text-align: center;
+}
+
+.spd_dropD {
+    text-align: center;
+    position: relative;
+    left: 339px;
+    height: -27px;
+    width: 1171px;
+    margin-top: 93px;
+}
+
+label {
+    margin-left: 30px;
+}
+
+.spd_email {
+    margin: 'auto';
+    margin-left: 300px;
+}
+
+.spd_email {
+    position: absolute;
+    right: 563px;
+    top: 383px;
+}
+
+
+.spd_datepicker{
+    position: absolute;
+    top: 378px;
+    left: 330px;
+}
+
+.audio_container{
+    background-color: #a4ecc8;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 50px;
+    height: 200px;
+    width: 330px;
+    box-shadow: 10px 10px silver;
+    position: absolute;
+    right: 673px;
+
+}
+
+.spd_audiop{
+    position: relative;
+    left: 599px;
+}
+
+.spd_videop{
+    position: absolute;
+    right: 963px;
+    top: 538px;
+}
+
+.spd_showimage{
+    position: relative;
+    left: 20px;
+    top: 452px;
+}
+
+.spd_input{
+    width: 18px;
+}
+
+.spd_mobileno{
+    width: 26px;
+    padding: 6px;
+}
